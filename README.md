@@ -36,6 +36,12 @@ result = A.multiply(v)
 print(result)
 ```
 
+To use a function from another module for the `examples` directory, run the script using the following command from the project parent directory:
+
+```bash
+python3 -m examples.[filename].py
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
